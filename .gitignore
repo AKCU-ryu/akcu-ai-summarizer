@@ -1,0 +1,23 @@
+# API 키 및 인증 정보
+.env
+.env.*
+!.env.example
+*.key
+
+# Python 임시 파일
+__pycache__/
+*.pyc
+.venv/
+
+# AI 처리 결과 및 백업
+_ai_backup/
+_ai_state/
+output/
+temp/
+
+# 로그
+*.log
+
+# 개발환경 설정
+.idea/
+.vscode/
